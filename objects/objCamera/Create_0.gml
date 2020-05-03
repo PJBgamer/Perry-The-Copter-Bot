@@ -1,0 +1,12 @@
+cam = view_camera[0];
+follow = objPerry;
+viewwhalf = camera_get_view_width(cam) / 2;
+viewhhalf = camera_get_view_height(cam) / 2;
+xto = xstart;
+yto = ystart;
+shakelength = 0;
+shakemagnitude = 0;
+shakeremain = 0;
+buff = 8;
+Background1 = layer_get_id("Background1")
+Background2 = layer_get_id("Background2")
